@@ -1,0 +1,46 @@
+
+.row{
+    color: black;
+    padding: 8px;
+}
+.commodities{
+    background-color: white;
+}
+.equities{
+    background-color: #CAE7F9;
+
+}
+.credit{
+    background-color: #D1F4C9;
+}
+
+.positivePrice{
+    color: #276FA8;
+    margin: 0;
+
+}
+.negativePrice{
+    color: #A6150BB3;
+    margin: 0;
+
+}
+.tableData{
+    border: 1px solid black;
+    padding: 8px;
+    width: 300px
+}
+.tableData:first-child{
+    border: none;
+    border-top: 1px solid black;
+}
+.row > *{
+    min-width: 60px;
+}
+
+@media screen and (min-width: 768px){
+    .row{
+        padding: 8px;
+        width: 300px
+    }
+}
+

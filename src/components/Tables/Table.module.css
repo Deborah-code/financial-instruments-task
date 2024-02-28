@@ -1,0 +1,35 @@
+.table{
+    border: solid 1px black;
+    width: 100%;
+}
+
+.tableHeading{
+    border-right: 1px solid black;
+    width: fit-content;
+    padding: 8px;
+    text-align: left;
+    cursor: pointer;
+    min-width: 95px;
+}
+
+.table td, .table th{
+    width: fit-content;
+}
+.thead{
+    background-color: #EAEDEF;
+    border-bottom: 1px solid black;
+}
+
+.thead h3{
+    font-size: 16px;
+}
+
+.tableHeading:last-child{
+    border-right: none;
+}
+
+@media screen and (min-width: 768px){
+    .tableHeading{
+        width: 300px
+    }
+}
