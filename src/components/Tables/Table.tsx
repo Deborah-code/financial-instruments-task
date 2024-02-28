@@ -30,7 +30,7 @@ const Table: React.FC<TableProps> = ({ columns, data, onHeadingClick }) => {
       </thead>
       <tbody>
         {data.map((row, rowIndex) => (
-          <TableRow key={rowIndex} row={row} columns={columns} />
+          <TableRow key={rowIndex} row={row} />
         ))}
       </tbody>
     </table>

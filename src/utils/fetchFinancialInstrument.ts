@@ -8,6 +8,6 @@ export const fetchData = async (): Promise<any> => {
 const fetchApi = (): Promise<string> => {
    const NETWORK_DELAY = 500
    return new Promise((resolve) => {
-       setTimeout(()=> resolve(JSON.stringify(data) ), NETWORK_DELAY)
+      setTimeout(()=> resolve(JSON.stringify(data) ), NETWORK_DELAY)
    });
 }

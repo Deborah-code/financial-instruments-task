@@ -18,10 +18,10 @@ const TextIcon: React.FC<TextIconProps> = ({ data, onTextClick }) => {
     }
   };
   return (
-    <article onClick={() => handleClick(id)} className={Style.container}>
+    <section onClick={() => handleClick(id)} className={Style.container}>
       <h3>{text}</h3>
       {icon && <span style={{ marginLeft: "4px" }}>{icon}</span>}
-    </article>
+    </section>
   );
 };
 

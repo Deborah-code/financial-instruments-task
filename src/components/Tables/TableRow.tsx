@@ -2,14 +2,8 @@ import React from "react";
 import { FinancialInstrument } from "../../utils/sort";
 import Style from "./TableRow.module.css";
 
-interface Columns {
-  text: string;
-  icon: React.ReactNode;
-}
-
 interface TableRowProps {
   row: FinancialInstrument;
-  columns: Columns[];
   onHeadingClick?: (headingText: string) => void;
 }
 

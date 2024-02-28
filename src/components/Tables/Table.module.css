@@ -12,7 +12,7 @@
     min-width: 95px;
 }
 
-.table td, .table th{
+.table td, .thead tr{
     width: fit-content;
 }
 .thead{
